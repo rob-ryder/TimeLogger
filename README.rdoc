@@ -1,0 +1,3 @@
+== TimeLogger
+
+A test RoR application, designed to help daily time/hours logging.
