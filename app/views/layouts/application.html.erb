@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Narrow Jumbotron Template for Bootstrap</title>
+  <title><%= page_title(yield(:page_title)) %></title>
 
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
@@ -21,8 +21,7 @@
   <div class="header">
     <ul class="nav nav-pills pull-right">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Login</a></li>
     </ul>
     <h3 class="text-muted">Time Logger</h3>
   </div>
